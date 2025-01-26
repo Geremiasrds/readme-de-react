@@ -26,13 +26,15 @@ class Nome extends React.Component {
 ```
 ### Propriedades para os componentes.
 As props são utilizadas para enviar dados de um componente pai para um componente filho, permitindo a personalização e reutilização dos componentes.
-- Dentro do componente pai deve ser ser colocado a prop
+
+Dentro do componente pai deve ser ser colocado a prop
 ```
 <Nome title='NomeDaProp'/>
 
 ```
-- Este é ocódigo do componente filho de class.
+Este é ocódigo do componente filho de class.
 ```
+
 class Nome extends React.Component {
     render() {
          return(
@@ -81,13 +83,13 @@ const NomeDaFunção = (props) => {
 ## Propriedades padrão default de componentes.
 É uma forma da gente inicializar algumas propriedade do nosso componente com valores padrão quando a gente não quer ou não precisa passar algum valor pra dentro deles.
 
-- 1 - Elemento pai deve esta com a propriede exemplo. 
+-  pai deve esta com a propriede exemplo. 
 
 
 ```
 < NomeDaFunção Label='nomeDaProp' />
 ```
-- 2 - Agora a prop que foi colocada no componente pai pode ser usada.
+- Agora a prop que foi colocada no componente pai pode ser usada.
 ```
 const NomeDaFunção = (props) => {
     return(
