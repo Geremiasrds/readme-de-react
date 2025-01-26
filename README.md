@@ -90,6 +90,7 @@ const NomeDaFunção = (props) => {
 < NomeDaFunção Label='nomeDaProp' />
 ```
 - Agora a prop que foi colocada no componente pai pode ser usada.
+
 ```
 const NomeDaFunção = (props) => {
     return(
@@ -113,11 +114,11 @@ npm install prop-types
 yarn install prop-types.
 ```
 #### Como usar proptypes
-- 1 - Primeiro ele deve ser importado.
+- Primeiro ele deve ser importado.
 ```
 import PropTypes from 'prop-types'
 ```
-- 2 - Criar o código de função.
+- Criar o código de função.
 ```
 const Nome = ( props )  => {
     return(
