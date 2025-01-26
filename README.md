@@ -47,6 +47,7 @@ class Nome extends React.Component {
 }
 ```
 - Este é o código do compenente filho com função
+
 ```
 const NomeDaFunção = (props) => {
     return(
@@ -84,14 +85,11 @@ const NomeDaFunção = (props) => {
 É uma forma da gente inicializar algumas propriedade do nosso componente com valores padrão quando a gente não quer ou não precisa passar algum valor pra dentro deles.
 
 -  pai deve esta com a propriede exemplo.
-   
-
 
 ```
 < NomeDaFunção Label='nomeDaProp' />
 ```
 - Agora a prop que foi colocada no componente pai pode ser usada.
-
 
 ```
 const NomeDaFunção = (props) => {
@@ -139,7 +137,8 @@ Count.propTypes = {
 ```
 
 ### Como ultilizar multiplos componentes.
-- Componente pai
+- Componente pai.
+
 ```
 <NomeDoComponente />
 ```
@@ -166,10 +165,9 @@ export default NomeDoComponente
 ### Como criar lista no react
 - Primeiro devemos ir em algum componente pai no react e criar com array de string. dentro do array deve esta o nome de cada componente que queremos dentro da lista e cada componete que for participar da lista deve ter o ` key={NomeDaLista} `
 
-
 . exemplo ``const NomeDaLista = ['nome1', 'nome2', 'nome3']``
 
-- Aqui vai ser feito o código do componente de lista
+- Aqui vai ser feito o código do componente de lista.
 
 ```
 const NomeDoComponente = () => {
@@ -188,7 +186,8 @@ const NomeDoComponente = () => {
 }
 ```
 ### Como criar eventos no react.
-- Modelo simples
+- Modelo simples.
+
 ```
 const Evento = () =>{
     //Aqui deve ser colocado oque queremos que o botão faça
