@@ -1,4 +1,5 @@
- # COMPONENTES
+# Componentes
+
 
 ### Componente de função.
 ```
