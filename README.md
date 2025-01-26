@@ -83,13 +83,15 @@ const NomeDaFunção = (props) => {
 ## Propriedades padrão default de componentes.
 É uma forma da gente inicializar algumas propriedade do nosso componente com valores padrão quando a gente não quer ou não precisa passar algum valor pra dentro deles.
 
--  pai deve esta com a propriede exemplo. 
+-  pai deve esta com a propriede exemplo.
+   
 
 
 ```
 < NomeDaFunção Label='nomeDaProp' />
 ```
 - Agora a prop que foi colocada no componente pai pode ser usada.
+
 
 ```
 const NomeDaFunção = (props) => {
@@ -115,10 +117,12 @@ yarn install prop-types.
 ```
 #### Como usar proptypes
 - Primeiro ele deve ser importado.
+
 ```
 import PropTypes from 'prop-types'
 ```
 - Criar o código de função.
+
 ```
 const Nome = ( props )  => {
     return(
@@ -140,10 +144,12 @@ Count.propTypes = {
 <NomeDoComponente />
 ```
 - Componentes filhos, aqui é onde fica os componentes de cada filho.
+
 ```
 <NomeDoComponente />
 ```
 - Aqui é onde fica o código do componente filho.
+
 ```
 const NomeDoComponente = () => {
     return(
@@ -160,9 +166,11 @@ export default NomeDoComponente
 ### Como criar lista no react
 - Primeiro devemos ir em algum componente pai no react e criar com array de string. dentro do array deve esta o nome de cada componente que queremos dentro da lista e cada componete que for participar da lista deve ter o ` key={NomeDaLista} `
 
+
 . exemplo ``const NomeDaLista = ['nome1', 'nome2', 'nome3']``
 
 - Aqui vai ser feito o código do componente de lista
+
 ```
 const NomeDoComponente = () => {
     return(
